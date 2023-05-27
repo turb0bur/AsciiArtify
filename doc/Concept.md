@@ -109,6 +109,11 @@
     </tbody>
 </table>
 
+### Demo k3d
+<a target="_blank" href="demo_k3d_3x.gif">   
+    <img src="demo_k3d_3x.gif" alt="demo k3d" style="max-width: 100%; display: inline-block;"> 
+</a>
+
 ### Summary
 1. **Minikube**: Minikube is a good choice for local development and testing purposes. It provides a simple setup process and is well-suited for individual developers who want to run a single-node Kubernetes cluster on their local machine. Minikube also offers integration with popular CI/CD tools and has a mature development status. 
 2. **Kind**: Kind is a lightweight tool that is suitable for testing and development scenarios where you need to spin up multiple lightweight Kubernetes clusters quickly. It provides better scalability compared to Minikube and offers built-in support for load balancing. Kind is a good choice if you require multi-node clusters for your development or testing workflows. 
